@@ -4,6 +4,8 @@ JFATabBarController
 `UITabBarController` is a handy control for building user interfaces, but this control has an annoying limitation: if there are more than five tabs, a "More" button replaces the fifth tab. The user might not understand what "More" means or the fact that it hides additional controllers. `JFATabBarController` is a pluggable replacement for `UITabBarController` that eliminates this limitation. The user of this control can access an arbitrary number of controllers simply by swiping left on the tab bar. By default, JFATabBarController displays an exciting animation when changing tabs.
 
 ## Installation and Use
+To demo `JFATabBarController`, just clone the repository, double-click `JFATabBarController.xcodeproj`, and run on an iPhone or iPad simulator or device. 
+
 Here are the steps to use `JFATabBarController` in your app. These instructions assume familiarity with use of `UITabBarController`. If you have not used `UITabBarController`, I recommend watching the Stanford iOS-development course on iTunes U.
 
 1. Add `JFATabBarController.h` and `JFATabBarController.m` to your project.
@@ -11,8 +13,6 @@ Here are the steps to use `JFATabBarController` in your app. These instructions 
 3. Change the class of this `UITabBarController` to `JFATabBarController` by selecting it, opening the Utilities pane, showing the Identity inspector, and changing the class to `JFATabBarController`.
 4. If you have not already done so already, create a "relationship segue - view controller" from the `JFATabBarController` to each view controller you want accessible from the tab bar.
 5. For each view controller accessible from the tab bar, either set the name and image of the tab-bar item or change the identifier to a system item like "Favorites" or "Bookmarks".
-
-That's it!
 
 ## Constants
 There are two constants of interest in `JFATabBarController.m`.
