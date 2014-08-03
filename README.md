@@ -11,7 +11,7 @@ Here are the steps to use `JFATabBarController` in your app. These instructions 
 1. Add `JFATabBarController.h` and `JFATabBarController.m` to your project.
 2. If you do not already have a `UITabBarController` in your storyboard, add one.
 3. Change the class of this `UITabBarController` to `JFATabBarController` by selecting it, opening the Utilities pane, showing the Identity inspector, and changing the class to `JFATabBarController`.
-4. If you have not already done so already, create a "relationship segue - view controller" from the `JFATabBarController` to each view controller you want accessible from the tab bar.
+4. If you have not done so already, create a "relationship segue - view controller" from the `JFATabBarController` to each view controller you want accessible from the tab bar.
 5. For each view controller accessible from the tab bar, either set the name and image of the tab-bar item or change the identifier to a system item like "Favorites" or "Bookmarks".
 
 ## Constants
