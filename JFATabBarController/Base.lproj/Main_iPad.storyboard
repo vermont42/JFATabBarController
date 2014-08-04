@@ -54,7 +54,7 @@
             </objects>
             <point key="canvasLocation" x="17" y="1057"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Three-->
         <scene sceneID="B2z-vP-HkO">
             <objects>
                 <viewController id="cTL-n9-ZT3" sceneMemberID="viewController">
@@ -67,7 +67,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="0.59829542170000005" blue="0.1237009966" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="WvH-y7-aUa"/>
+                    <tabBarItem key="tabBarItem" title="Three" image="Paper" id="WvH-y7-aUa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7BN-rw-znG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +111,7 @@
             </objects>
             <point key="canvasLocation" x="33" y="-1362"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Seven-->
         <scene sceneID="Pc8-Ar-xYZ">
             <objects>
                 <viewController id="GmL-IA-Q3Q" sceneMemberID="viewController">
@@ -124,7 +124,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.99607849120000003" green="0.0" blue="0.35686275360000003" alpha="1" colorSpace="deviceRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="search" id="CxW-7i-z1C"/>
+                    <tabBarItem key="tabBarItem" title="Seven" image="Gear" id="CxW-7i-z1C"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dhm-jU-Ysx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -209,6 +209,8 @@
     <resources>
         <image name="Building" width="30" height="30"/>
         <image name="Gavel" width="30" height="30"/>
+        <image name="Gear" width="30" height="30"/>
+        <image name="Paper" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

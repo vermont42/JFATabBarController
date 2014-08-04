@@ -7,23 +7,28 @@
 //
 
 #import "JFATabBarController.h"
+#import "JFAArrowView.h"
 
-@interface JFATabBarController () <UINavigationControllerDelegate>
+@interface JFATabBarController () <UINavigationControllerDelegate, UIScrollViewDelegate>
 @property (strong, nonatomic) NSMutableArray *tabTitles;
 @property (strong, nonatomic) NSMutableArray *tabButtons;
 @property (strong, nonatomic) UIScrollView *barView;
 @property (nonatomic) CGFloat tabBarHeight;
+@property (strong, nonatomic) JFAArrowView *leftArrowView;
+@property (strong, nonatomic) JFAArrowView *rightArrowView;
 @end
 
 @implementation JFATabBarController
 static const CGFloat IPHONE_TAB_BAR_HEIGHT = 49.0;
 static const CGFloat IPAD_TAB_BAR_HEIGHT = 56.0;
+static const CGFloat ARROW_WIDTH = 24.0;
 static const NSUInteger MAX_TAB_COUNT = 5; // maximum tabs on screen at once
 static const CGFloat TITLE_BOTTOM_INSET = 26.0;
 static const CGFloat IMAGE_TOP_INSET = 15.0;
 static const CGFloat BUTTON_VERTICAL_INSET = 10;
 static const CGFloat BUTTON_HEIGHT = 30;
 static const CGFloat LABEL_SIZE = 10.0;
+static const CGFloat SCROLL_FUDGE = 1.0;
 
 - (CGFloat)tabBarHeight
 {
@@ -43,6 +48,7 @@ static const CGFloat LABEL_SIZE = 10.0;
     {
         CGRect barFrame = CGRectMake(0, self.view.bounds.size.height - self.tabBarHeight, self.view.bounds.size.width, self.tabBarHeight);
         _barView = [[UIScrollView alloc] initWithFrame:barFrame];
+        _barView.delegate = self;
     }
     return _barView;
 }
@@ -63,6 +69,32 @@ static const CGFloat LABEL_SIZE = 10.0;
         _tabButtons = [NSMutableArray new];
     }
     return _tabButtons;
+}
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    CGFloat xInset = scrollView.contentOffset.x;
+    if (xInset > 0.0)
+    {
+        [self.leftArrowView fadeIn];
+    }
+    else
+    {
+        [self.leftArrowView fadeOut];
+    }
+
+    CGFloat tabWidth = self.view.bounds.size.width / MAX_TAB_COUNT;
+    CGFloat maxXInset = ([self.tabButtons count] - MAX_TAB_COUNT) * tabWidth;
+    maxXInset -= SCROLL_FUDGE;
+    
+    if (xInset < maxXInset)
+    {
+        [self.rightArrowView fadeIn];
+    }
+    else
+    {
+        [self.rightArrowView fadeOut];
+    }
 }
 
 // This is the speed of the view-transition animation. Set it to 0.0 to prevent animation.
@@ -209,6 +241,10 @@ static const float TAB_ANIMATION_DURATION = 0.5;
             [self.tabButtons addObject:button];
         }
         [self.view addSubview:self.barView];
+        self.leftArrowView = [[JFAArrowView alloc] initWithUnderlyingView:self.barView arrowDirection:ARROW_DIRECTION_LEFT];
+        [self.view addSubview:self.leftArrowView];
+        self.rightArrowView = [[JFAArrowView alloc] initWithUnderlyingView:self.barView arrowDirection:ARROW_DIRECTION_RIGHT];
+        [self.view addSubview:self.rightArrowView];
         [self setBarAndButtonPositions];
     }
 }
@@ -236,6 +272,10 @@ static const float TAB_ANIMATION_DURATION = 0.5;
     float screenHeight = [self currentHeight];
     CGRect barFrame = CGRectMake(0, screenHeight - self.tabBarHeight, screenWidth, self.tabBarHeight);
     self.barView.frame = barFrame;
+    CGRect leftArrowFrame = CGRectMake(0, screenHeight - self.tabBarHeight, ARROW_WIDTH, self.tabBarHeight);
+    self.leftArrowView.frame = leftArrowFrame;
+    CGRect rightArrowFrame = CGRectMake(screenWidth - ARROW_WIDTH, screenHeight - self.tabBarHeight, ARROW_WIDTH, self.tabBarHeight);
+    self.rightArrowView.frame = rightArrowFrame;
     CGSize contentSize = self.barView.bounds.size;
     contentSize.width = screenWidth + tabWidth * (tabCount - MAX_TAB_COUNT);
     self.barView.contentSize = contentSize;

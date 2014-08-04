@@ -42,7 +42,7 @@
             </objects>
             <point key="canvasLocation" x="-51" y="697"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Three-->
         <scene sceneID="G3p-VW-13D">
             <objects>
                 <viewController id="frH-Rn-qsz" sceneMemberID="viewController">
@@ -55,13 +55,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="recents" id="yCA-tN-xGE"/>
+                    <tabBarItem key="tabBarItem" title="Three" image="Paper" id="yCA-tN-xGE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bT5-Ot-w9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="738" y="697"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller - Seven-->
         <scene sceneID="UAk-7U-pLE">
             <objects>
                 <viewController id="VDn-nN-6Uk" sceneMemberID="viewController">
@@ -74,7 +74,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.99607849120000003" green="0.0" blue="0.35686275360000003" alpha="1" colorSpace="deviceRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="downloads" id="aGf-jv-zGl"/>
+                    <tabBarItem key="tabBarItem" title="Seven" image="Gear" id="aGf-jv-zGl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pm9-e2-l6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -211,6 +211,8 @@
     <resources>
         <image name="Building" width="30" height="30"/>
         <image name="Gavel" width="30" height="30"/>
+        <image name="Gear" width="30" height="30"/>
+        <image name="Paper" width="30" height="30"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
