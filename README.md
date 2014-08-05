@@ -26,7 +26,7 @@ I have tested `JFATabBarController` extensively on iPhone 4, iPhone 4S, iPhone 5
 
 Because the app for which I created `JFATabBarController`, Immigration, has no need for `UITabBarController`’s localization, badge, or accessibility features, `JFATabBarController` does not currently support them. My app may require these features at some point, and `JFATabBarController` will support them then. I also welcome pull requests.
 
-For a video of `JFATabBarController` in action, see https://vimeo.com/102421494
+For a video of `JFATabBarController` in action, see https://vimeo.com/102583744 
 
 ## Creator
 
