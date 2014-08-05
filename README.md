@@ -8,7 +8,7 @@ To demo `JFATabBarController`, just clone the repository, double-click `JFATabBa
 
 Here are the steps to use `JFATabBarController` in your app. These instructions assume familiarity with use of `UITabBarController`. If you have not used `UITabBarController`, I recommend watching the Stanford iOS-development course on iTunes U.
 
-1. Add `JFATabBarController.h` and `JFATabBarController.m` to your project.
+1. Add `JFATabBarController.h`, `JFATabBarController.m`, `JFAArrowView.m`, and `JFAArrowView.h` to your project.
 2. If you do not already have a `UITabBarController` in your storyboard, add one.
 3. Change the class of this `UITabBarController` to `JFATabBarController` by selecting it, opening the Utilities pane, showing the Identity inspector, and changing the class to `JFATabBarController`.
 4. If you have not done so already, create a "relationship segue - view controller" from the `JFATabBarController` to each view controller you want accessible from the tab bar.
