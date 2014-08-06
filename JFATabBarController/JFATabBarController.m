@@ -241,9 +241,9 @@ static const float TAB_ANIMATION_DURATION = 0.5;
             [self.tabButtons addObject:button];
         }
         [self.view addSubview:self.barView];
-        self.leftArrowView = [[JFAArrowView alloc] initWithUnderlyingView:self.barView arrowDirection:ARROW_DIRECTION_LEFT];
+        self.leftArrowView = [[JFAArrowView alloc] initWithDirection:ARROW_DIRECTION_LEFT];
         [self.view addSubview:self.leftArrowView];
-        self.rightArrowView = [[JFAArrowView alloc] initWithUnderlyingView:self.barView arrowDirection:ARROW_DIRECTION_RIGHT];
+        self.rightArrowView = [[JFAArrowView alloc] initWithDirection:ARROW_DIRECTION_RIGHT];
         [self.view addSubview:self.rightArrowView];
         [self setBarAndButtonPositions];
     }

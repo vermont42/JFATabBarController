@@ -14,7 +14,7 @@ typedef enum
 	ARROW_DIRECTION_LEFT = 0,
 	ARROW_DIRECTION_RIGHT = 1,
 } ArrowDirection;
-- (JFAArrowView *)initWithUnderlyingView:(UIView *)underlyingView arrowDirection:(ArrowDirection)arrowDirection;
+- (JFAArrowView *)initWithDirection:(ArrowDirection)arrowDirection;
 - (void)fadeIn;
 - (void)fadeOut;
 @end

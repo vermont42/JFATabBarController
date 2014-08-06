@@ -9,18 +9,25 @@
 #import "JFAArrowView.h"
 
 @interface JFAArrowView ()
-@property (strong, nonatomic) UIView *underlyingView;
 @property (nonatomic) BOOL dark;
 @property (nonatomic) ArrowDirection arrowDirection;
 @end
 
 @implementation JFAArrowView
-- (JFAArrowView *)initWithUnderlyingView:(UIView *)underlyingView arrowDirection:(ArrowDirection)arrowDirection
+static const float ANIMATION_DURATION = 0.2f;
+static const float ANIMATION_DELAY = 0.0f;
+static const CGFloat FADED_IN_ALPHA = 0.7f;
+static const CGFloat FADED_OUT_ALPHA = 0.2f;
+static const CGFloat ARROW_LEFT = 0.3f;
+static const CGFloat ARROW_RIGHT = 0.7f;
+static const CGFloat ARROW_TOP = 0.4f;
+static const CGFloat ARROW_BOTTOM = 0.6f;
+
+- (JFAArrowView *)initWithDirection:(ArrowDirection)arrowDirection;
 {
     self = [super initWithFrame:CGRectMake(0, 0, 0, 0)];
     if (self)
     {
-        self.underlyingView = underlyingView;
         self.arrowDirection = arrowDirection;
         self.dark = YES;
         if (arrowDirection == ARROW_DIRECTION_LEFT)
@@ -35,11 +42,6 @@
     }
     return self;
 }
-
-static const float ANIMATION_DURATION = 0.2f;
-static const float ANIMATION_DELAY = 0.0f;
-static const CGFloat FADED_IN_ALPHA = 0.7f;
-static const CGFloat FADED_OUT_ALPHA = 0.2f;
 
 - (void)fadeIn
 {
@@ -69,11 +71,6 @@ static const CGFloat FADED_OUT_ALPHA = 0.2f;
 {
     return nil;
 }
-
-static const CGFloat ARROW_LEFT = 0.3f;
-static const CGFloat ARROW_RIGHT = 0.7f;
-static const CGFloat ARROW_TOP = 0.4f;
-static const CGFloat ARROW_BOTTOM = 0.6f;
 
 - (void)drawRect:(CGRect)rect
 {
