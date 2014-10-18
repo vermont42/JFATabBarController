@@ -158,7 +158,7 @@ static const float TAB_ANIMATION_DURATION = 0.5;
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    if ([self.viewControllers count] > MAX_TAB_COUNT)
+    if ([self.viewControllers count] > MAX_TAB_COUNT && ![self.tabButtons count])
     {
         self.moreNavigationController.delegate = self;
         self.barView.backgroundColor = [UIColor whiteColor];
@@ -249,9 +249,7 @@ static const float TAB_ANIMATION_DURATION = 0.5;
     }
 }
 
-- (void)willAnimateRotationToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
-{
-    [super willAnimateRotationToInterfaceOrientation:toInterfaceOrientation duration:duration];
+- (void)viewDidLayoutSubviews {
     if ([self.viewControllers count] > MAX_TAB_COUNT)
     {
         [self setBarAndButtonPositions];
