@@ -16,6 +16,12 @@
 @property (nonatomic) CGFloat tabBarHeight;
 @property (strong, nonatomic) JFAArrowView *leftArrowView;
 @property (strong, nonatomic) JFAArrowView *rightArrowView;
+typedef enum
+{
+    WIDTH,
+    HEIGHT
+} Dimension;
+@property (nonatomic) Dimension dimension;
 @end
 
 @implementation JFATabBarController
@@ -29,6 +35,8 @@ static const CGFloat BUTTON_VERTICAL_INSET = 10;
 static const CGFloat BUTTON_HEIGHT = 30;
 static const CGFloat LABEL_SIZE = 10.0;
 static const CGFloat SCROLL_FUDGE = 1.0;
+static const CGFloat IPHONE_SIMULATOR_WIDTH = 320;
+static const CGFloat IPHONE_SIMULATOR_HEIGHT = 480;
 
 - (CGFloat)tabBarHeight
 {
@@ -288,17 +296,38 @@ static const float TAB_ANIMATION_DURATION = 0.5;
 
 - (float)currentWidth
 {
-    UIScreen *screen = [UIScreen mainScreen];
-    float width = screen.currentMode.size.width / screen.scale;
-    float height = screen.currentMode.size.height / screen.scale;
-    return (UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))? MAX (width, height) : MIN (width, height);
+    self.dimension = WIDTH;
+    return [self currentHeightOrWidth];
 }
 
 - (float)currentHeight
 {
+    self.dimension = HEIGHT;
+    return [self currentHeightOrWidth];
+}
+
+- (float)currentHeightOrWidth
+{
+    float width;
+    float height;
     UIScreen *screen = [UIScreen mainScreen];
-    float width = screen.currentMode.size.width / screen.scale;
-    float height = screen.currentMode.size.height / screen.scale;
-    return (UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))? MIN (width, height) : MAX (width, height);
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && [[[UIDevice currentDevice] model] hasPrefix:@"iPad"])
+    {
+        width = IPHONE_SIMULATOR_WIDTH;
+        height = IPHONE_SIMULATOR_HEIGHT;
+    }
+    else
+    {
+        width = screen.currentMode.size.width / screen.scale;
+        height = screen.currentMode.size.height / screen.scale;
+    }
+    if (self.dimension == WIDTH)
+    {
+        return (UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))? MAX (width, height) : MIN (width, height);
+    }
+    else
+    {
+        return (UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))? MIN (width, height) : MAX (width, height);
+    }
 }
 @end
