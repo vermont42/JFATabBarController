@@ -6,5 +6,7 @@
 //  Copyright (c) 2013 Josh Adams. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
+
 @interface JFATabBarController : UITabBarController
 @end
