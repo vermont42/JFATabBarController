@@ -3,6 +3,8 @@ JFATabBarController
 
 `UITabBarController` is a handy control for building user interfaces, but this control has an annoying limitation: if there are more than five tabs, a "More" button replaces the fifth tab. The user might not understand what "More" means or the fact that it hides additional controllers. `JFATabBarController` is a pluggable replacement for `UITabBarController` that eliminates this limitation. The user of this control can access an arbitrary number of controllers simply by swiping left on the tab bar. By default, JFATabBarController displays an exciting animation when changing tabs.
 
+`UITabBarController` supports multitasking on late-model iPads running iOS 9.
+
 ## Installation and Use
 To demo `JFATabBarController`, just clone the repository, double-click `JFATabBarController.xcodeproj`, and run on an iPhone or iPad simulator or device. 
 
