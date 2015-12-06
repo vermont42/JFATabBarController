@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mWs-oP-cle">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mWs-oP-cle">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -13,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="1Vl-1O-SSG"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dzk-1a-Ck5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.0" green="1" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -21,9 +22,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AQY-wz-BC8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-91" y="62"/>
+            <point key="canvasLocation" x="-170.625" y="77.5"/>
         </scene>
-        <!--View Controller - Five-->
+        <!--Five-->
         <scene sceneID="aKF-oY-tsN">
             <objects>
                 <viewController id="Lmt-Hq-QJl" sceneMemberID="viewController">
@@ -32,7 +33,7 @@
                         <viewControllerLayoutGuide type="bottom" id="VPQ-oc-liJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8Zf-ej-Ay5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.068851952369999997" green="1" blue="0.83281583449999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -40,9 +41,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Loe-aV-aXo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-51" y="697"/>
+            <point key="canvasLocation" x="-95.625" y="871.25"/>
         </scene>
-        <!--View Controller - Three-->
+        <!--Three-->
         <scene sceneID="G3p-VW-13D">
             <objects>
                 <viewController id="frH-Rn-qsz" sceneMemberID="viewController">
@@ -51,7 +52,7 @@
                         <viewControllerLayoutGuide type="bottom" id="crc-mi-rAh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bZX-QJ-Ch9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -59,9 +60,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bT5-Ot-w9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="738" y="697"/>
+            <point key="canvasLocation" x="1383.75" y="871.25"/>
         </scene>
-        <!--View Controller - Seven-->
+        <!--Seven-->
         <scene sceneID="UAk-7U-pLE">
             <objects>
                 <viewController id="VDn-nN-6Uk" sceneMemberID="viewController">
@@ -70,7 +71,7 @@
                         <viewControllerLayoutGuide type="bottom" id="8e7-Aw-jiM"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Iw-Zf-510">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.99607849120000003" green="0.0" blue="0.35686275360000003" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -78,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pm9-e2-l6J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-83" y="-575"/>
+            <point key="canvasLocation" x="-155.625" y="-718.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kDQ-Mn-HQS">
@@ -89,14 +90,13 @@
                         <viewControllerLayoutGuide type="bottom" id="Ugf-hX-JsP"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="atI-wP-Po5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the tab bar right and tap a button." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuX-wH-Gdo">
-                                <rect key="frame" x="47" y="233" width="227" height="15"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="185" y="293" width="230" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -110,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iHm-LI-dIh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="344" y="-576"/>
+            <point key="canvasLocation" x="645" y="-720"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JzW-cs-lS0">
@@ -121,7 +121,7 @@
                         <viewControllerLayoutGuide type="bottom" id="PfY-Ji-n7i"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v0A-C6-4vu">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="0.85098046059999999" green="0.52549022440000004" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -129,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppI-jt-KxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="344" y="697"/>
+            <point key="canvasLocation" x="645" y="871.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="964-ci-CNK">
@@ -140,7 +140,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Uuh-t1-SZW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dvL-ci-DX5">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" red="1" green="0.59829542170000005" blue="0.1237009966" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -148,9 +148,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o53-AL-e6L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="800" y="62"/>
+            <point key="canvasLocation" x="1500" y="77.5"/>
         </scene>
-        <!--View Controller - One-->
+        <!--One-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="JFAViewController" sceneMemberID="viewController">
@@ -159,14 +159,13 @@
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the tab bar left and tap a button." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5u-pP-r1Z">
-                                <rect key="frame" x="51" y="233" width="219" height="15"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="189" y="293" width="222" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -180,7 +179,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="826" y="-576"/>
+            <point key="canvasLocation" x="1548.75" y="-720"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0zK-C0-N8e">
@@ -205,7 +204,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqb-lt-zOC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="344" y="62"/>
+            <point key="canvasLocation" x="645" y="77.5"/>
         </scene>
     </scenes>
     <resources>
@@ -214,9 +213,4 @@
         <image name="Gear" width="30" height="30"/>
         <image name="Paper" width="30" height="30"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
-    </simulatedMetricsContainer>
 </document>

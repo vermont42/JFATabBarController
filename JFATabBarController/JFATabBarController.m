@@ -323,11 +323,11 @@ static const float TAB_ANIMATION_DURATION = 0.5;
     }
     if (self.dimension == WIDTH)
     {
-        return (UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))? MAX (width, height) : MIN (width, height);
+      return (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))? MAX (width, height) : MIN (width, height);
     }
     else
     {
-        return (UIDeviceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation]))? MIN (width, height) : MAX (width, height);
+      return (UIDeviceOrientationIsLandscape([[UIDevice currentDevice] orientation]))? MIN (width, height) : MAX (width, height);
     }
 }
 @end

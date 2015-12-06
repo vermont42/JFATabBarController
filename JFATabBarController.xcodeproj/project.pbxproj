@@ -14,27 +14,11 @@
 		E1AD04C1198D5D4C00DD77DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1AD04BF198D5D4C00DD77DF /* InfoPlist.strings */; };
 		E1AD04C3198D5D4C00DD77DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AD04C2198D5D4C00DD77DF /* main.m */; };
 		E1AD04C7198D5D4C00DD77DF /* JFAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AD04C6198D5D4C00DD77DF /* JFAAppDelegate.m */; };
-		E1AD04CA198D5D4C00DD77DF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AD04C8198D5D4C00DD77DF /* Main_iPhone.storyboard */; };
-		E1AD04CD198D5D4C00DD77DF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AD04CB198D5D4C00DD77DF /* Main_iPad.storyboard */; };
+		E1AD04CA198D5D4C00DD77DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AD04C8198D5D4C00DD77DF /* Main.storyboard */; };
 		E1AD04D0198D5D4C00DD77DF /* JFAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AD04CF198D5D4C00DD77DF /* JFAViewController.m */; };
 		E1AD04D2198D5D4C00DD77DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AD04D1198D5D4C00DD77DF /* Images.xcassets */; };
-		E1AD04D9198D5D4C00DD77DF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AD04D8198D5D4C00DD77DF /* XCTest.framework */; };
-		E1AD04DA198D5D4C00DD77DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AD04B6198D5D4C00DD77DF /* Foundation.framework */; };
-		E1AD04DB198D5D4C00DD77DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AD04BA198D5D4C00DD77DF /* UIKit.framework */; };
-		E1AD04E3198D5D4C00DD77DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1AD04E1198D5D4C00DD77DF /* InfoPlist.strings */; };
-		E1AD04E5198D5D4C00DD77DF /* JFATabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1AD04E4198D5D4C00DD77DF /* JFATabBarControllerTests.m */; };
 		E1F55B2B198D8A870081369D /* JFATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F55B29198D8A870081369D /* JFATabBarController.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E1AD04DC198D5D4C00DD77DF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E1AD04AB198D5D4C00DD77DF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1AD04B2198D5D4C00DD77DF;
-			remoteInfo = JFATabBarController;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E1592C6D198EDD79006DFF0E /* JFAArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFAArrowView.h; sourceTree = "<group>"; };
@@ -49,16 +33,11 @@
 		E1AD04C4198D5D4C00DD77DF /* JFATabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFATabBarController-Prefix.pch"; sourceTree = "<group>"; };
 		E1AD04C5198D5D4C00DD77DF /* JFAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAAppDelegate.h; sourceTree = "<group>"; };
 		E1AD04C6198D5D4C00DD77DF /* JFAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAAppDelegate.m; sourceTree = "<group>"; };
-		E1AD04C9198D5D4C00DD77DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		E1AD04CC198D5D4C00DD77DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E1AD04C9198D5D4C00DD77DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E1AD04CE198D5D4C00DD77DF /* JFAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFAViewController.h; sourceTree = "<group>"; };
 		E1AD04CF198D5D4C00DD77DF /* JFAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFAViewController.m; sourceTree = "<group>"; };
 		E1AD04D1198D5D4C00DD77DF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E1AD04D7198D5D4C00DD77DF /* JFATabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFATabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AD04D8198D5D4C00DD77DF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E1AD04E0198D5D4C00DD77DF /* JFATabBarControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JFATabBarControllerTests-Info.plist"; sourceTree = "<group>"; };
-		E1AD04E2198D5D4C00DD77DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E1AD04E4198D5D4C00DD77DF /* JFATabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFATabBarControllerTests.m; sourceTree = "<group>"; };
 		E1F55B29198D8A870081369D /* JFATabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFATabBarController.m; sourceTree = "<group>"; };
 		E1F55B2A198D8A870081369D /* JFATabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFATabBarController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,16 +53,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1AD04D4198D5D4C00DD77DF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1AD04D9198D5D4C00DD77DF /* XCTest.framework in Frameworks */,
-				E1AD04DB198D5D4C00DD77DF /* UIKit.framework in Frameworks */,
-				E1AD04DA198D5D4C00DD77DF /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				E1AD04BC198D5D4C00DD77DF /* JFATabBarController */,
-				E1AD04DE198D5D4C00DD77DF /* JFATabBarControllerTests */,
 				E1AD04B5198D5D4C00DD77DF /* Frameworks */,
 				E1AD04B4198D5D4C00DD77DF /* Products */,
 			);
@@ -101,7 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				E1AD04B3198D5D4C00DD77DF /* JFATabBarController.app */,
-				E1AD04D7198D5D4C00DD77DF /* JFATabBarControllerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,8 +93,7 @@
 				E1F55B29198D8A870081369D /* JFATabBarController.m */,
 				E1AD04C5198D5D4C00DD77DF /* JFAAppDelegate.h */,
 				E1AD04C6198D5D4C00DD77DF /* JFAAppDelegate.m */,
-				E1AD04C8198D5D4C00DD77DF /* Main_iPhone.storyboard */,
-				E1AD04CB198D5D4C00DD77DF /* Main_iPad.storyboard */,
+				E1AD04C8198D5D4C00DD77DF /* Main.storyboard */,
 				E1AD04CE198D5D4C00DD77DF /* JFAViewController.h */,
 				E1AD04CF198D5D4C00DD77DF /* JFAViewController.m */,
 				E1AD04D1198D5D4C00DD77DF /* Images.xcassets */,
@@ -143,24 +109,6 @@
 				E1AD04BF198D5D4C00DD77DF /* InfoPlist.strings */,
 				E1AD04C2198D5D4C00DD77DF /* main.m */,
 				E1AD04C4198D5D4C00DD77DF /* JFATabBarController-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E1AD04DE198D5D4C00DD77DF /* JFATabBarControllerTests */ = {
-			isa = PBXGroup;
-			children = (
-				E1AD04E4198D5D4C00DD77DF /* JFATabBarControllerTests.m */,
-				E1AD04DF198D5D4C00DD77DF /* Supporting Files */,
-			);
-			path = JFATabBarControllerTests;
-			sourceTree = "<group>";
-		};
-		E1AD04DF198D5D4C00DD77DF /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E1AD04E0198D5D4C00DD77DF /* JFATabBarControllerTests-Info.plist */,
-				E1AD04E1198D5D4C00DD77DF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,24 +133,6 @@
 			productReference = E1AD04B3198D5D4C00DD77DF /* JFATabBarController.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1AD04D6198D5D4C00DD77DF /* JFATabBarControllerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E1AD04EB198D5D4D00DD77DF /* Build configuration list for PBXNativeTarget "JFATabBarControllerTests" */;
-			buildPhases = (
-				E1AD04D3198D5D4C00DD77DF /* Sources */,
-				E1AD04D4198D5D4C00DD77DF /* Frameworks */,
-				E1AD04D5198D5D4C00DD77DF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E1AD04DD198D5D4C00DD77DF /* PBXTargetDependency */,
-			);
-			name = JFATabBarControllerTests;
-			productName = JFATabBarControllerTests;
-			productReference = E1AD04D7198D5D4C00DD77DF /* JFATabBarControllerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,13 +140,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = JFA;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Josh Adams";
-				TargetAttributes = {
-					E1AD04D6198D5D4C00DD77DF = {
-						TestTargetID = E1AD04B2198D5D4C00DD77DF;
-					};
-				};
 			};
 			buildConfigurationList = E1AD04AE198D5D4C00DD77DF /* Build configuration list for PBXProject "JFATabBarController" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -232,7 +157,6 @@
 			projectRoot = "";
 			targets = (
 				E1AD04B2198D5D4C00DD77DF /* JFATabBarController */,
-				E1AD04D6198D5D4C00DD77DF /* JFATabBarControllerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,18 +166,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1AD04CD198D5D4C00DD77DF /* Main_iPad.storyboard in Resources */,
 				E1AD04D2198D5D4C00DD77DF /* Images.xcassets in Resources */,
-				E1AD04CA198D5D4C00DD77DF /* Main_iPhone.storyboard in Resources */,
+				E1AD04CA198D5D4C00DD77DF /* Main.storyboard in Resources */,
 				E1AD04C1198D5D4C00DD77DF /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1AD04D5198D5D4C00DD77DF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1AD04E3198D5D4C00DD77DF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,23 +187,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1AD04D3198D5D4C00DD77DF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E1AD04E5198D5D4C00DD77DF /* JFATabBarControllerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E1AD04DD198D5D4C00DD77DF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E1AD04B2198D5D4C00DD77DF /* JFATabBarController */;
-			targetProxy = E1AD04DC198D5D4C00DD77DF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E1AD04BF198D5D4C00DD77DF /* InfoPlist.strings */ = {
@@ -299,28 +198,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		E1AD04C8198D5D4C00DD77DF /* Main_iPhone.storyboard */ = {
+		E1AD04C8198D5D4C00DD77DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E1AD04C9198D5D4C00DD77DF /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		E1AD04CB198D5D4C00DD77DF /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1AD04CC198D5D4C00DD77DF /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		E1AD04E1198D5D4C00DD77DF /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E1AD04E2198D5D4C00DD77DF /* en */,
-			);
-			name = InfoPlist.strings;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -344,6 +227,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -358,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -406,7 +290,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFATabBarController/JFATabBarController-Prefix.pch";
 				INFOPLIST_FILE = "JFATabBarController/JFATabBarController-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.immigrationapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,48 +305,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFATabBarController/JFATabBarController-Prefix.pch";
 				INFOPLIST_FILE = "JFATabBarController/JFATabBarController-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "biz.immigrationapp.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		E1AD04EC198D5D4D00DD77DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JFATabBarController.app/JFATabBarController";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JFATabBarController/JFATabBarController-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "JFATabBarControllerTests/JFATabBarControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		E1AD04ED198D5D4D00DD77DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JFATabBarController.app/JFATabBarController";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JFATabBarController/JFATabBarController-Prefix.pch";
-				INFOPLIST_FILE = "JFATabBarControllerTests/JFATabBarControllerTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -481,15 +329,6 @@
 			buildConfigurations = (
 				E1AD04E9198D5D4D00DD77DF /* Debug */,
 				E1AD04EA198D5D4D00DD77DF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1AD04EB198D5D4D00DD77DF /* Build configuration list for PBXNativeTarget "JFATabBarControllerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E1AD04EC198D5D4D00DD77DF /* Debug */,
-				E1AD04ED198D5D4D00DD77DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
