@@ -1,16 +1,16 @@
 JFATabBarController
 ===================
 
-`UITabBarController` is a handy control for building user interfaces, but it has an annoying limitation: if there are more than five tabs, a "More" button replaces the fifth tab. The user might not understand what "More" means or the fact that it hides additional controllers. `JFATabBarController` is a pluggable replacement for `UITabBarController` that eliminates this limitation. The user of this control can access an arbitrary number of controllers simply by swiping left on the tab bar. By default, JFATabBarController displays an exciting animation when changing tabs.
+`UITabBarController` is a handy control for building user interfaces, but it has an annoying limitation: if there are more than five tabs, a "More" button replaces the fifth tab. The user might not understand what "More" means or the fact that it hides additional controllers. `JFATabBarController` is a pluggable replacement for `UITabBarController` that eliminates this limitation. The user of this control can access an arbitrary number of controllers simply by swiping left on the tab bar. By default, `JFATabBarController` displays an exciting animation when changing tabs.
 
-For a video of `JFATabBarController` in action, see [here](https://vimeo.com/102583744) or [here](https://vimeo.com/111125796) (includes [music](https://incompetech.com)). 
+For a video of `JFATabBarController` in action, see [here](https://vimeo.com/102583744) or [here](https://vimeo.com/111125796) (includes [music](https://incompetech.com)).
 
 ## Installation and Use
 To demo `JFATabBarController`, just clone the repository, double-click `JFATabBarController.xcodeproj`, and run on an iPhone or iPad simulator or device.
 
 Here are the steps to use `JFATabBarController` in your app. These instructions assume familiarity with use of `UITabBarController`.
 
-1. Add `JFATabBarController.h`, `JFATabBarController.m`, `JFAArrowView.m`, and `JFAArrowView.h` to your project. Alternatively, add `pod 'JFATabBarController'` to your Podfile and do a `pod install`.
+1. Add `JFATabBarController.h`, `JFATabBarController.m`, `JFAArrowView.m`, and `JFAArrowView.h` to your project. Alternatively, add `pod 'JFATabBarController'` to your `Podfile` and do a `pod install`.
 2. If you do not already have a `UITabBarController` in your storyboard, add one.
 3. Change the class of this `UITabBarController` to `JFATabBarController` by selecting it, opening the Utilities pane, showing the Identity inspector, and changing the class to `JFATabBarController`.
 4. If you have not done so already, create a "relationship segue - view controller" from the `JFATabBarController` to each view controller you want accessible from the tab bar.
@@ -19,14 +19,14 @@ Here are the steps to use `JFATabBarController` in your app. These instructions 
 ## Constants
 There are two constants of interest in `JFATabBarController.m`.
 
-MAX_TAB_COUNT is the maximum number of tab-bar items to show at once. You are not limited to `UITabBarController`’s five.
+`MAX_TAB_COUNT` is the maximum number of tab-bar items to show at once. You are not limited to `UITabBarController`’s five.
 
-TAB_ANIMATION_DURATION is the duration of the tab-changing animation. The larger the number, the longer the duration. Set this to 0.0 to prevent animation.
+`TAB_ANIMATION_DURATION` is the duration of the tab-changing animation. The larger the number, the longer the duration. Set this to 0.0 to prevent animation.
 
 ## Notes
-I have tested `JFATabBarController` extensively on iPhone 4, iPhone 4S, iPhone 5S, iPhone 6, iPad 2, iPad Mini, and iPad Air.
+`JFATabBarController` has been tested extensively on iPhone 4, iPhone 4S, iPhone 5S, iPhone 6, iPad 2, iPad Mini, and iPad Air.
 
-Because the app for which I created `JFATabBarController`, [Immigration](https://itunes.apple.com/us/app/immigration/id777319358), has no need for `UITabBarController`’s localization, badge, or accessibility features, `JFATabBarController` does not currently support them. My app may require these features at some point, and `JFATabBarController` will support them then. I also welcome pull requests.
+Because the app for which `JFATabBarController` was created, [Immigration](https://itunes.apple.com/us/app/immigration/id777319358), has no need for `UITabBarController`’s localization, badge, or accessibility features, `JFATabBarController` does not currently support them. The app may require these features at some point, and `JFATabBarController` will support them then. Pull requests are welcome.
 
 ## Creator
 
