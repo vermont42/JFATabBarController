@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = "JFATabBarController"
   s.version          = "1.0.0"
-  s.summary          = "JFATabBarController is a replacement for UITabBarController that allows the user to scroll to an arbitrary number of tab-bar items. Transitions can optionally be animated."
+  s.summary          = "JFATabBarController is a replacement for UITabBarController that allows the user to scroll to an arbitrary number of tab-bar items."
   s.homepage         = "https://github.com/vermont42/JFATabBarController"
   s.license          = "MIT"
   s.author           = "Josh Adams"
