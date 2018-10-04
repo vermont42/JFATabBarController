@@ -24,7 +24,7 @@ There are two constants of interest in `JFATabBarController.m`.
 `TAB_ANIMATION_DURATION` is the duration of the tab-changing animation. The larger the number, the longer the duration. Set this to 0.0 to prevent animation.
 
 ## Notes
-`JFATabBarController` has been tested extensively on iPhone 4, iPhone 4S, iPhone 5S, iPhone 6, iPad 2, iPad Mini, and iPad Air.
+`JFATabBarController` has been tested on iPhone SE, iPhone X, iPhone 🎾, iPhone 🎾 Max, iPad XR, and iPad Pro.
 
 Because the app for which `JFATabBarController` was created, [Immigration](https://itunes.apple.com/us/app/immigration/id777319358), has no need for `UITabBarController`’s localization, badge, or accessibility features, `JFATabBarController` does not currently support them. The app may require these features at some point, and `JFATabBarController` will support them then. Pull requests are welcome.
 

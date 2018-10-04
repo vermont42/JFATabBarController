@@ -1,22 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mWs-oP-cle">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mWs-oP-cle">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="0xI-3J-oxo">
             <objects>
                 <viewController id="GPy-va-NWu" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ogW-uK-0rg"/>
-                        <viewControllerLayoutGuide type="bottom" id="1Vl-1O-SSG"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dzk-1a-Ck5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="1" blue="0.050980396570000003" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.1352725625038147" green="1" blue="0.055931344628334045" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Ncm-3M-jk6"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="bookmarks" id="YPp-Ry-tho"/>
                 </viewController>
@@ -28,14 +30,11 @@
         <scene sceneID="aKF-oY-tsN">
             <objects>
                 <viewController id="Lmt-Hq-QJl" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="1JP-Sk-Efj"/>
-                        <viewControllerLayoutGuide type="bottom" id="VPQ-oc-liJ"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8Zf-ej-Ay5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.068851952369999997" green="1" blue="0.83281583449999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.068851952369999997" green="1" blue="0.83281583449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="v71-mI-DXt"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Five" image="Gavel" id="gLw-aa-RGH"/>
                 </viewController>
@@ -47,14 +46,11 @@
         <scene sceneID="G3p-VW-13D">
             <objects>
                 <viewController id="frH-Rn-qsz" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Cev-y5-zAt"/>
-                        <viewControllerLayoutGuide type="bottom" id="crc-mi-rAh"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bZX-QJ-Ch9">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="NqK-09-Ebd"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Three" image="Paper" id="yCA-tN-xGE"/>
                 </viewController>
@@ -66,14 +62,11 @@
         <scene sceneID="UAk-7U-pLE">
             <objects>
                 <viewController id="VDn-nN-6Uk" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uoI-AN-TEh"/>
-                        <viewControllerLayoutGuide type="bottom" id="8e7-Aw-jiM"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="2Iw-Zf-510">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.99607849120000003" green="0.0" blue="0.35686275360000003" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.9809378981590271" green="0.0" blue="0.28732818365097046" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Kwg-Sx-laK"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Seven" image="Gear" id="aGf-jv-zGl"/>
                 </viewController>
@@ -85,26 +78,23 @@
         <scene sceneID="kDQ-Mn-HQS">
             <objects>
                 <viewController id="oTT-cv-3yT" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="9E2-vd-niH"/>
-                        <viewControllerLayoutGuide type="bottom" id="Ugf-hX-JsP"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="atI-wP-Po5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the tab bar right and tap a button." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FuX-wH-Gdo">
-                                <rect key="frame" x="185" y="293" width="230" height="15"/>
+                                <rect key="frame" x="45" y="276.5" width="230" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="FuX-wH-Gdo" secondAttribute="centerY" id="QDt-ZD-aLh"/>
-                            <constraint firstAttribute="centerX" secondItem="FuX-wH-Gdo" secondAttribute="centerX" id="hdB-gn-Qly"/>
+                            <constraint firstItem="mbg-hH-geU" firstAttribute="centerX" secondItem="FuX-wH-Gdo" secondAttribute="centerX" id="hdB-gn-Qly"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="mbg-hH-geU"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="mostViewed" id="jFA-98-Ofz"/>
                 </viewController>
@@ -116,14 +106,11 @@
         <scene sceneID="JzW-cs-lS0">
             <objects>
                 <viewController id="mhs-vn-d82" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mgd-tz-78v"/>
-                        <viewControllerLayoutGuide type="bottom" id="PfY-Ji-n7i"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="v0A-C6-4vu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.85098046059999999" green="0.52549022440000004" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
+                        <color key="backgroundColor" red="0.80791771411895752" green="0.41969010233879089" blue="0.8918001651763916" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="zXm-W7-MI4"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="contacts" id="mmU-HN-bix"/>
                 </viewController>
@@ -135,14 +122,11 @@
         <scene sceneID="964-ci-CNK">
             <objects>
                 <viewController id="5JM-7g-V66" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PRg-6f-iR9"/>
-                        <viewControllerLayoutGuide type="bottom" id="Uuh-t1-SZW"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="dvL-ci-DX5">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="0.59829542170000005" blue="0.1237009966" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.59829542170000005" blue="0.1237009966" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="mAB-qR-V64"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="d5a-mJ-C8y"/>
                 </viewController>
@@ -154,26 +138,23 @@
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="JFAViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Swipe the tab bar left and tap a button." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5u-pP-r1Z">
-                                <rect key="frame" x="189" y="293" width="222" height="15"/>
+                                <rect key="frame" x="49" y="276.5" width="222" height="15"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="0.98154904870000004" blue="0.099614470240000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="0.98154904870000004" blue="0.099614470240000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="d5u-pP-r1Z" secondAttribute="centerY" id="KYq-sm-fAE"/>
-                            <constraint firstAttribute="centerX" secondItem="d5u-pP-r1Z" secondAttribute="centerX" id="Mio-xE-fa1"/>
+                            <constraint firstItem="VET-7d-DXD" firstAttribute="centerX" secondItem="d5u-pP-r1Z" secondAttribute="centerX" id="Mio-xE-fa1"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="VET-7d-DXD"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="One" image="Building" id="RzB-kJ-jIJ"/>
                 </viewController>
@@ -188,8 +169,9 @@
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="6d7-AG-QnV">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="BLe-WS-0t3"/>
