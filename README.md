@@ -31,7 +31,7 @@ Because the app for which `JFATabBarController` was created, [Immigration](https
 ## Creator
 
 **Josh Adams**
-* [http://www.immigrationapp.biz](http://www.immigrationapp.biz)
+* [http://www.immigrationapp.biz](http://www.racecondition.software)
 * [@vermont42](https://twitter.com/vermont42)
 
 ## License
